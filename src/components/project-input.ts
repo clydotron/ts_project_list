@@ -1,6 +1,11 @@
-import { Component } from './base-component.js';
-import { Validatable, validate } from '../utils/validation.js';
-import { projectState } from '../state/project-state.js';
+import { Component } from './base-component';
+import { Validatable, validate } from '../utils/validation';
+import { projectState } from '../state/project-state';
+// could use this:
+// import * as Validation from '../utils/validation';
+// usage: Validation.validate
+// or
+// import {autobind as Autobind } ...
 
 
 export class ProjectInput extends Component<HTMLDivElement,HTMLFormElement> {

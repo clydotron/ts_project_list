@@ -1,4 +1,4 @@
-import { Project, ProjectStatus } from "../models/projects.js";
+import { Project, ProjectStatus } from "../models/projects";
 
 // TODO move into own file (eventually)
 type Listener<T> = (projects: T[]) => void
